@@ -22,7 +22,6 @@ header {
     background-color: #f1f1f1;
     padding: 10px 100px;
     position: fixed;
-    /* width: 100%; */
 }
 
 li a {
@@ -265,4 +264,67 @@ button {
 
 .icon2{
     padding:10px 8px 10px 0px;
+}
+
+
+/* people section styling starts here */
+
+#people {
+
+    margin: 0px 70px;
+    padding-top: 40px;
+    background-color: aliceblue;
+    height: 850px;
+
+}
+.peoplebtn{
+    background-color: #fff;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0px 0px 0px 50px;
+    
+
+}
+
+.peopleimage{
+
+}
+
+.groomdetail{
+    padding-left: 30px;
+}
+
+.Groomsmenimage{
+   
+}
+
+#topgroom{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#bottomgroom{
+    width: 100%;
+}
+
+.groomclass{
+    margin-left: 370px;
+}
+
+.peoplehead{
+    font-size: 14px;
+}
+
+.groompara{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.imageradius{
+
+    border-radius: 20px;
 }
