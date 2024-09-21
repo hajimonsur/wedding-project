@@ -1,5 +1,248 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.rowcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: ; */
+}
+
+.colcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 10px 100px;
+    position: fixed;
+    /* width: 100%; */
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+
+    margin-right: 20px;
+    padding-right: 30px;
+    font-size: 18px;
+
+}
+
+li a:hover {
+    color: red;
+}
+
+
+/* main styling begins */
+
+#home {
+    background-color: #B1B4B8;
+    padding-top: 100px;
+    /* padding-bottom: 60px; */
+    margin: 0px 70px;
+    height: 720px;
+
+}
+
+#lefthome {
+
+    padding: 160px 0px 30px 40px;
+    /* padding-bottom: 50px; */
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px;
+
+
+}
+
+.stitle {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.templete {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.icon {
+    width: 20px;
+    color: green;
+}
+
+
+.homeimage {
+    height: 580px;
+
+    padding-right: 30px;
+}
+
+#datext {
+
+    background-color: coral;
+    color: #f1f1f1;
+    width: 130px;
+    height: 50px;
+    padding: 20px 0px 0px 20px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+#savedate {
+
+
+    /* bottom: 20px;
+    right: 10px; */
+    /* position: absolute; */
+    padding: 0% 0% 0% 70%;
+}
+
+#date {
+
+    background-color: #fff;
+    color: black;
+    width: 130px;
+    height: 40px;
+    padding: 15px 0px 0px 3px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button {
+
+    background-color: crimson;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+}
+
+
+/* love story section styling */
+
+#lovestory {
+    
+    margin: 0px 70px;
+    padding-top: 40px;
+    background-color: aliceblue;
+
+}
+
+#love {
+    padding-top: 40px;
+    
+}
+
+#leftlove {
+    margin-right: 90px;
+}
+
+
+.lovetitle {
+
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.loveicon {
+    color: red;
+    padding: 10px 0px 30px 0px;
+}
+
+
+.smallove {
+    width: 150px;
+    /* margin-left:30px; */
+    /* padding-right: 20px; */
+    padding-top: 40px;
+}
+
+.bride {
+    padding-top: 10px;
+}
+
+.column2 {
+    /* padding-left: 10px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.column3 {
+    padding: 0px 30px 0px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+.social {
+    /* border: 2px solid yellow; */
+    width: 130px;
+    height: 30px;
+    margin-top: 50px;
+
+}
+
+.socialicon {
+    width: 20px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lovepara {
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.lovecouple {
+    width: "50%";
+    height: "70%";
+    border-radius: 20px;
+}
+
+.headcolor{
+    color: yellow;
+}
+
+
+
+/* The Wedding Section styling Begins here */
+
+#wedding {
+
+        margin: 0px 70px;
+        padding-top: 40px;
+        background-color: aliceblue;
+    
 }
