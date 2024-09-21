@@ -328,3 +328,18 @@ button {
 
     border-radius: 20px;
 }
+
+
+/* +gallery section styling starts here  */
+
+#gallery{
+
+    margin: 0px 70px;
+    padding-top: 40px;
+    background-color: aliceblue;
+    height: 1300px;
+}
+
+.mini{
+    padding-bottom: 40px;
+}
