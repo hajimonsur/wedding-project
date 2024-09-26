@@ -7,18 +7,22 @@
     <title>Wedding Project</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/8d8255153f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- header section -->
-    <header>
+    <header class="rowcontent">
         <div id="logo">
             <img src="./images/weddinglogo.png" alt="Wedding Logo" width="5%">
 
         </div>
 
         <nav>
-            <ul>
+            <ul class="rowcontent">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#lovestory">Our Story</a></li>
                 <li><a href="#wedding">The Wedding</a></li>
@@ -36,166 +40,247 @@
     <main>
         <!-- homepage section< -->
         <section id="home">
-            <div id="hompage">
+            <div id="hompage" class="rowcontent">
 
                 <div id="lefthome">
-                    <h6><i class="fa-solid fa-hand fa-shake"> </i> HI THERE, YOU ARE INVITED</h6>
-                    <h1>WE'RE GETTING MARRIED</h1>
+                    <h6 class="stitle"><i class="fa-solid fa-hand fa-shake"> </i> HI THERE, YOU ARE INVITED</h6>
+                    <h1 class="title">WE'RE GETTING MARRIED</h1>
 
-                    <i class="fa-solid fa-circle-check"></i> Wedding HTML Templete <br>
-                    <i class="fa-solid fa-circle-check"></i> Bootstrap V5.1.3 Layout
+                    <div class=" templete">
+                        <i class="fa-solid fa-circle-check icon"></i>
+                        <p class="hometext">Wedding HTML Templete</p> <br>
+                    </div>
+
+                    <div class=" templete">
+                        <i class="fa-solid fa-circle-check icon"></i>
+                        <p class="hometext"> Bootstrap V5.1.3 Layout</p>
+                    </div>
 
                     <br><br>
                     <button id="rsvp">RSVP</button>
                 </div>
 
                 <div id="righthome">
-                    <img src="./images/weddinghomeimage.png" alt="Wedding">
+                    <!-- <img src="./images/weddinghomeimage.png" alt="Wedding" class="homeimage"> -->
 
                     <div id="savedate">
-                        <h5>Save The Date</h5>
-                        <h3>25th February 2025</h3>
+                        <h5 id="datext">Save The Date</h5>
+                        <h3 id="date">25th February 2025</h3>
                     </div>
                 </div>
             </div>
-        </section><br>
+        </section>
 
         <!-- love story section -->
         <section id="lovestory">
 
-            <h2>LOVE STORY</h2>
-            <i class="fa-solid fa-heart fa-beat"></i>
-
-            <div id="love">
-
-                <div id="leftlove">
-
-                    <img src="./images/lovestory1.jpg" alt="WIFE">
-                    <div>
-                        <h6>Ella Toone</h6>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis molestiae esse dolore
-                            sequi doloremque rem!</p>
-                        <div id="wifesocial">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-linkedin"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="rightlove">
-
-                    <img src="./images/lovestory2.jpg" alt="HUSBAND">
-                    <div>
-                        <h6>John Doe</h6>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis molestiae esse dolore
-                            sequi doloremque rem!</p>
-                        <div id="husbandsocial">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-linkedin"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="colcontent headcolor">
+                <h2>LOVE STORY</h2>
+                <i class="fa-solid fa-heart fa-beat loveicon"></i>
             </div>
 
-        </section><br>
+            <div id="love" class="rowcontent">
+
+                <div id="leftlove" class=" rowcontent">
+
+                    <img src="./images/lovestory1.jpg" alt="WIFE" width="50%" height="70%" class="lovecouple">
+                    <div class="column2">
+                        <div class="rowcontent smallove">
+                            <h4 class="lovetitle">Toone </h4>
+                            <p class="bride">The Bride</p>
+                        </div>
+                        <p class="lovepara">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Reiciendis molestiae es <br>
+                            se dolore
+                            Lorem ipsum dolor sit amet. <br> sequi doloremque rem!</p>
+
+
+                        <div class="social rowcontent">
+
+                            <div class="socialicon">
+
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+
+                            <div class="socialicon">
+
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+
+                            <div class="socialicon">
+
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+
+                            <div class="socialicon">
+                                <i class="fa-brands fa-instagram"></i>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rightlove" class="rowcontent">
+
+                    <img src="./images/lovestory2.jpg" alt="HUSBAND" width="50%" height="70%" class="lovecouple">
+
+                    <div class="column3">
+                        <div class="rowcontent smallove">
+                            <h4 class="lovetitle">John </h4>
+                            <p class="bride">The Groom</p>
+                        </div>
+                        <p class="lovepara">Lorem ipsum dolor sit,consectetur <br> adipisicing elit. Reiciendismolestiae <br> doloreLorem ipsum dolor sit amet. <br> sequi doloremque rem! lorem</p>
+
+                            <div class="social rowcontent">
+
+                                <div class="socialicon">
+    
+                                    <i class="fa-brands fa-facebook"></i>
+                                </div>
+    
+                                <div class="socialicon">
+    
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+    
+                                <div class="socialicon">
+    
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+    
+                                <div class="socialicon">
+                                    <i class="fa-brands fa-instagram"></i>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- </div> -->
+
+        </section>
 
         <!-- wedding section -->
         <section id="wedding">
 
-            <h2>THE WEDDING</h2>
-            <i class="fa-solid fa-heart fa-beat"></i>
+           
+            <div  class="colcontent headcolor">
+                <h2>THE WEDDING</h2>
+            <i class="fa-solid fa-heart fa-beat loveicon "></i>
+            </div>
 
-            <div id="weddingimage">
+            <div id="weddingimage" class="rowcontent">
 
                 <div id="leftwedding">
-                    <img src="./images/the weeding1.jpg" alt="WEDDING">
-                    <h5>THE RECEPTION </h5>
-                    <p><i class="fa-solid fa-location-dot"></i> 5th Avenue, Central Park NY</p>
-                    <p><i class="fa-solid fa-clock fa-spin-pulse"></i> 3:00 PM</p>
+                    <img src="./images/the weeding1.jpg" alt="WEDDING" width="80%" height="80%" class="imageradius">
+                    <h5 class="weddingtitle">THE RECEPTION </h5>
+                    <div class="templete">
+                        <p><i class="fa-solid fa-location-dot icon2"></i> 5th Avenue, Central Park NY</p>
+                    </div>
+                    <p><i class="fa-solid fa-clock  icon2"></i> 3:00 PM</p>
                 </div>
 
                 <div id="middlewedding">
-                    <img src="./images/the weeding2.jpg" alt="COUPLE">
-                    <h5>WEDDING CEREMONY </h5>
-                    <p><i class="fa-solid fa-location-dot"></i> 5th Avenue, Central Park NY</p>
-                    <p><i class="fa-solid fa-clock fa-spin-pulse"></i> 6:30 PM to 9:00 PM</p>
+                    <img src="./images/the weeding2.jpg" alt="COUPLE" height="80%" width="80%" class="imageradius">
+                    <h5 class="weddingtitle">WEDDING CEREMONY </h5>
+                    <p><i class="fa-solid fa-location-dot icon2"></i> 5th Avenue, Central Park NY</p>
+                    <p><i class="fa-solid fa-clock  icon2"></i> 6:30 PM to 9:00 PM</p>
                 </div>
 
-                <div id="leftwedding">
-                    <img src="./images/weedinglocation.jpeg" alt="MAP">
-                    <h5>LOCATION</h5>
-                    <p><i class="fa-solid fa-location-dot"></i> 5th Avenue, Central Park New York NY 10019, United
-                        States</p>
+                <div id="rightwedding">
+                    <img src="./images/weedinglocation.jpeg" alt="MAP" width="300%" height="80%" class="imageradius">
+                    <h5 class="weddingtitle">LOCATION</h5>
+                    <p><i class="fa-solid fa-location-dot icon2 "></i> 5th Avenue,Central Park New York NY 10019,United States</p>
 
                 </div>
 
             </div>
 
 
-        </section><br>
+        </section>
 
         <!-- people/GROOMSMEN AND BRIDESMAIDS section -->
         <section id="people">
 
+           <div class="colcontent headcolor">
+
             <h2>GROOMSMEN AND BRIDESMAIDS</h2>
-            <i class="fa-solid fa-heart fa-beat"></i><br><br>
-            <div id="peoplebutton">
-                <button>Groom Side</button><br>
-                <button>Bride Side</button>
-            </div>
+            <i class="fa-solid fa-heart fa-beat loveicon"></i><br><br>
+           </div>
+           
 
-            <div id="Groomsmenimage">
-                <div id="topgroom">
-                    <img src="./images/grooms1.jpg" alt="GROOMSMEN">
-                    <div id="groomdetail1">
-                        <h6>John Doe</h6>
-                        <p>Wedding Planner Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, voluptate!
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, vitae.</p>
+            <div id="peopleimage" class="rowcontent">
+
+                <div id="peoplebutton">
+                    <button class="peoplebtn" id="gside">Groom Side</button><br>
+                    <button class="peoplebtn">Bride Side</button>
+                </div>
+    
+              <div class="groomclass">
+
+                <div id="Groomsmenimage">
+                    <div id="topgroom" class="rowcontent ">
+                        <img src="./images/grooms1.jpg" alt="GROOMSMEN" width="50%" height="70%" class="imageradius">
+                        <div class="groomdetail">
+                             <div class="rowcontent smallove">
+                                <h4 class="lovetitle">Gabby</h4>
+                                <p class="bride">Cousin</p>
+                            </div>
+                            <p class="groompara">Wedding Planner Lorem ipsum dolor sit,aconsectetur adipisicing elit. Velit, voluptate! Lorem ipsum dolor,sit amet consectetur adipisicing elit. Molestiae, vitae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, eligendi.</p>
+                        </div>
                     </div>
+    
+                    <div id="bottomgroom" class="rowcontent">
+                        <img src="./images/grooms2.jpg" alt="GROOMSMEN" width="50%" height="70%" class="imageradius">
+                        <div class="groomdetail">
+                            <div class="rowcontent smallove">
+                                <h4 class="lovetitle">Amad</h4>
+                                <p class="bride">Bestfriend</p>
+                            </div>
+                            <p class="groompara">Wedding Planner Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, voluptate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, vitae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, atque!</p>
+                        </div>
+                    </div>
+    
                 </div>
 
-                <div id="bottomgroom">
-                    <img src="./images/grooms2.jpg" alt="GROOMSMEN">
-                    <div id="groomdetail2">
-                        <h6>John Doe</h6>
-                        <p>Wedding Planner Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, voluptate!
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, vitae.</p>
-                    </div>
-                </div>
+              </div>
 
             </div>
 
-        </section><br>
+        </section>
 
 
         <!-- gallery section -->
         <section id="gallery">
 
-            <h2>GALLERY</h2>
-            <i class="fa-solid fa-heart fa-beat"></i><br><br>
-            <div id="galleryimage">
-                <img src="./images/gallery1.jpg" alt="GALLERY">
+           
+            <div class="colcontent headcolor">
+                <h2>GALLERY</h2>
+                <i class="fa-solid fa-heart fa-beat loveicon"></i><br><br>
+            </div>
+
+            <div id="galleryimage" class="rowcontent">
+                <img src="./images/gallery1.jpg" alt="GALLERY" width="30%" height="38%" class="imageradius">
 
 
-                <div id="gallery1">
-                    <img src="./images/gallery2.jpg" alt="GALLERY">
-                    <img src="./images/gallery3.jpg" alt="GALLERY">
+                <div id="gallery1" class="colcontent">
+                    <img src="./images/gallery2.jpg" alt="GALLERY" width="88%" height="50%" class="imageradius mini">
+                    <img src="./images/gallery3.jpg" alt="GALLERY" width="88%" height="40%" class="imageradius">
                 </div>
 
-                <img src="./images/gallery1.jpg" alt="GALLERY">
+                <img src="./images/gallery1.jpg" alt="GALLERY" width="30%" height="40%" class="imageradius">
 
             </div>
 
             <div id="gallery2">
 
-                <img src="./images/gallery4.jpg" alt="GALLERY">
-                <img src="./images/gallery5.jpg" alt="GALLERY">
-                <img src="./images/gallery6.jpg" alt="GALLERY">
+                <img src="./images/gallery4.jpg" alt="GALLERY" width="33%" height="100%" class="imageradius">
+                <img src="./images/gallery5.jpg" alt="GALLERY" width="33%" height="10%" class="imageradius">
+                <img src="./images/gallery6.jpg" alt="GALLERY" width="33%" height="900%" class="imageradius">
 
             </div>
 

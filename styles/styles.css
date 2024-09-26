@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif; ;
+}
+
+.rowcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: ; */
+}
+
+.colcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 10px 100px;
+    position: fixed;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+li {
+    list-style-type: none;
+
+    margin-right: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+
+}
+
+li a:hover {
+    color: red;
+}
+
+
+/* main styling begins */
+
+#home {
+    background-color: #D9D8D6;
+    padding-top: 100px;
+    /* padding-bottom: 60px; */
+    margin: 0px 70px;
+    height: 720px;
+    background-image: url(../images/weddinghomeimage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+
+}
+
+#lefthome {
+
+    padding: 160px 0px 30px 40px;
+    /* padding-bottom: 50px; */
+}
+
+
+#righthome{
+
+    /* background-image: url(../images/weddinghomeimage.png); */
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px;
+
+
+}
+
+.stitle {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.templete {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.icon {
+    width: 20px;
+    color: green;
+}
+
+
+.homeimage {
+    height: 580px;
+
+    padding-right: 30px;
+}
+
+#datext {
+
+    background-color: coral;
+    color: #f1f1f1;
+    width: 130px;
+    height: 50px;
+    padding: 20px 0px 0px 20px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+#savedate {
+
+
+    /* bottom: 20px;
+    right: 10px; */
+    /* position: absolute; */
+    padding: 135% 0% 0% 0%;
+    margin-right: 220px;
+}
+
+#date {
+
+    background-color: #fff;
+    color: black;
+    width: 130px;
+    height: 40px;
+    padding: 15px 0px 0px 3px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button {
+
+    background-color: crimson;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+}
+
+
+/* love story section styling */
+
+#lovestory {
+    
+    margin: 0px 70px;
+    padding-top: 40px;
+    background-color: #FFFFFF;
+
+}
+
+#love {
+    padding-top: 40px;
+    
+}
+
+#leftlove {
+    margin-right: 90px;
+}
+
+
+.lovetitle {
+
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.loveicon {
+    color: red;
+    padding: 10px 0px 30px 0px;
+}
+
+
+.smallove {
+    width: 150px;
+    /* margin-left:30px; */
+    /* padding-right: 20px; */
+    padding-top: 40px;
+}
+
+.bride {
+    padding-top: 10px;
+}
+
+.column2 {
+    /* padding-left: 10px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.column3 {
+    padding: 0px 30px 0px 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+.social {
+    /* border: 2px solid yellow; */
+    width: 130px;
+    height: 30px;
+    margin-top: 50px;
+
+}
+
+.socialicon {
+    width: 20px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #EBC342;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lovepara {
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.lovecouple {
+    width: "50%";
+    height: "70%";
+    border-radius: 20px;
+}
+
+.headcolor{
+    color: #EBC342;
+}
+
+
+
+/* The Wedding Section styling Begins here */
+
+#wedding {
+
+        margin: 0px 70px;
+        padding-top: 40px;
+        background-color:  #FFFFFF;
+        height: 600px;
+    
+}
+
+#weddingimage {
+
+    padding-top: 40px;
+    width: 80%;
+    padding-left: 0px;
+   
+    
+}
+
+.weddingtitle{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding-top: 10px;
+}
+
+.icon2{
+    padding:10px 8px 10px 0px;
+}
+
+
+/* people section styling starts here */
+
+#people {
+
+    margin: 0px 70px;
+    padding-top: 40px;
+    background-color:  #FFFFFF;
+    height: 850px;
+
+}
+
+#gside{
+    color: #EDC5A9;
+}
+
+.peoplebtn{
+    background-color: #fff;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0px 0px 0px 50px;
+    
+
+}
+
+/* .peopleimage{ */
+
+/* } */
+
+.groomdetail{
+    padding-left: 30px;
+}
+
+/* .Groomsmenimage{ */
+   
+/* } */
+
+#topgroom{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#bottomgroom{
+    width: 100%;
+}
+
+.groomclass{
+    margin-left: 370px;
+}
+
+.peoplehead{
+    font-size: 14px;
+}
+
+.groompara{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.imageradius{
+
+    border-radius: 20px;
+}
+
+
+/* +gallery section styling starts here  */
+
+#gallery{
+
+    margin: 0px 70px;
+    padding-top: 40px;
+    background-color:  #FFFFFF;
+    height: 1300px;
+}
+
+.mini{
+    padding-bottom: 40px;
+}
